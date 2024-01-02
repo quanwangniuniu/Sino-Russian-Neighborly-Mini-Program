@@ -1,0 +1,50 @@
+
+.word-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  margin-top: 30%;
+}
+.word {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.translation {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #666;
+  text-align: center;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30%;
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-unknown {
+  background-color: #FF5858;
+  color: white;
+}
+.btn-known {
+  background-color: #38CC77;
+  color: white;
+}
+.btn-next {
+  background-color: #5D9CEC;
+  color: white;
+  margin-left: auto;
+}

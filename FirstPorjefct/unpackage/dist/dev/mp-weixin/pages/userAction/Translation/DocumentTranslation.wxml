@@ -1,0 +1,1 @@
+<view class="translation-component"><view class="upload-area" bindtap="{{a}}"><image class="upload-icon" src="/static/icons/upload.png"></image><text class="upload-text">点击上传文件</text></view><view class="result-area"><text class="result-text">{{b}}</text></view></view>

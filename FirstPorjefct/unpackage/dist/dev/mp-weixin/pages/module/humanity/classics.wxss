@@ -1,0 +1,14 @@
+
+.content{
+	margin-left:1rem;
+	margin-right:1rem;
+}
+.section-image {
+  width: 50%;
+  height: 250px;
+  margin-bottom: 20px;
+  margin-top:1rem;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}

@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/userAction/Login",
+    "pages/module/choose",
+    "pages/module/culture/trade",
+    "pages/module/culture/history",
+    "pages/module/culture/humanity",
+    "pages/module/culture/politics",
+    "pages/module/humanity/classics",
+    "pages/module/humanity/cultural-differences",
+    "pages/module/humanity/culture",
+    "pages/module/humanity/festivals",
+    "pages/module/humanity/customs",
+    "pages/module/humanity/geography",
+    "pages/module/humanity/religion",
+    "pages/module/humanity/traditional-food",
+    "pages/module/culture/language",
+    "pages/userAction/Register",
+    "pages/userAction/Home/UserProfile",
+    "pages/userAction/TranslateIndex",
+    "pages/userAction/Translation/PictureTranslation",
+    "pages/userAction/Translation/FontTranslation",
+    "pages/userAction/Translation/DocumentTranslation",
+    "pages/userAction/LearnIndex",
+    "pages/userAction/Learn/Overview",
+    "pages/userAction/Learn/WordTest",
+    "pages/userAction/Learn/Vocabulary"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "中俄睦邻",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#AAAAAA",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/userAction/TranslateIndex",
+        "text": "在线翻译",
+        "iconPath": "static/icons/translation.png",
+        "selectedIconPath": "static/icons/translation.png"
+      },
+      {
+        "pagePath": "pages/userAction/LearnIndex",
+        "text": "语言学习",
+        "iconPath": "static/icons/language.png",
+        "selectedIconPath": "static/icons/language.png"
+      },
+      {
+        "pagePath": "pages/module/choose",
+        "text": "文化交流",
+        "iconPath": "static/icons/culture.png",
+        "selectedIconPath": "static/icons/culture.png"
+      },
+      {
+        "pagePath": "pages/userAction/Home/UserProfile",
+        "text": "个人中心",
+        "iconPath": "static/icons/personal.png",
+        "selectedIconPath": "static/icons/personal.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

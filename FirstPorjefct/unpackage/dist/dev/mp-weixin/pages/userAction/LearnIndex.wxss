@@ -1,0 +1,55 @@
+
+.template-container.data-v-4045480c {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.template-header.data-v-4045480c {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 80px;
+}
+.template-title.data-v-4045480c {
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+.template-description.data-v-4045480c {
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.template-section.data-v-4045480c {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 100px;
+margin: 10px;
+border-radius: 10px;
+background-color: #ff557f; /* 设置边框内部背景色 /
+border: 2px solid #ffaaff; / 设置边框颜色和宽度 */
+background-repeat: no-repeat;
+background-size: 50px,50px;
+background-position: 20px ;
+}
+.template-name.data-v-4045480c {
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: #ffffff;
+}
+.template-name-translate.data-v-4045480c {
+font-size: 16px;
+color: #666;
+text-align: center;
+}
+
+/* hover效果 */
+.template-section.data-v-4045480c:hover {
+cursor: pointer;
+box-shadow: 0px 0px 10px #ccc;
+}
+

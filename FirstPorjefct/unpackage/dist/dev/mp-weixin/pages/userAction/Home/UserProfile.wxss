@@ -1,0 +1,201 @@
+
+/* 添加适当的样式和颜色以符合俄罗斯的感觉 */
+
+/* 整体容器样式 */
+.view.data-v-442d0846 {
+  padding: 20px;
+  background-color: #f5f5f5; /* 使用浅灰色背景 */
+  font-family: Arial, sans-serif;
+  max-width: 600px; /* 限制容器的最大宽度 */
+  margin: 0 auto; /* 居中显示 */
+}
+
+/* 用户信息样式 */
+.user-info.data-v-442d0846 {
+  display: flex;
+  align-items: center;
+  margin-top:10px;
+  background:  #ffaaff;
+  height: 125px;
+}
+.avatar.data-v-442d0846 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  border:1px solid black;
+}
+.username.data-v-442d0846 {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 签到样式 */
+.signin.data-v-442d0846 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.input-icon.data-v-442d0846 {
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  transform: translateY(10%); 
+  margin-right:10px;
+}
+.signinButton.data-v-442d0846{
+	width:100%;
+}
+button.data-v-442d0846 {
+  padding: 8px 16px; /* 调整按钮的大小 */
+  background-color: #007bff; /* 使用俄罗斯国旗蓝色背景 */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px; /* 调整按钮的字体大小 */
+  width:100%;
+}
+.signin-count.data-v-442d0846,
+.last-signin-time.data-v-442d0846 {
+  margin-top: 10px;
+  font-size: 12px; /* 调整签到信息的字体大小 */
+  color: #777;
+}
+
+/* 语言选择样式 */
+.language.data-v-442d0846 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+button.data-v-442d0846 {
+  width:50%;
+  padding: 6px 12px; /* 调整按钮的大小 */
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+button.active.data-v-442d0846 {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* 夜间模式样式 */
+.night-mode.data-v-442d0846 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+/* 记忆模式样式 */
+.study-settings.data-v-442d0846 {
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+input[type="number"].data-v-442d0846 {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 60px;
+}
+
+/* 已学习单词样式 */
+.learned-words button.data-v-442d0846 {
+  padding: 6px 12px; /* 调整按钮的大小 */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top:20px;
+}
+.learned-words button.data-v-442d0846:hover {
+  background-color: #0056b3;
+}
+
+/* 添加其他样式和调整颜色以适应整体设计和风格 */
+
+/* 调整按钮的悬停效果 */
+button.data-v-442d0846:hover {
+  background-color: #0056b3; /* 使用深蓝色作为悬停颜色 */
+}
+
+/* 调整开关按钮样式 */
+.switch.data-v-442d0846 {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-left: 10px;
+}
+.switch input.data-v-442d0846 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider.data-v-442d0846 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 20px;
+}
+.slider.data-v-442d0846:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider.data-v-442d0846 {
+  background-color: #007bff;
+}
+input:focus + .slider.data-v-442d0846 {
+  box-shadow: 0 0 1px #007bff;
+}
+input:checked + .slider.data-v-442d0846:before {
+  transform: translateX(20px);
+}
+.slider.round.data-v-442d0846 {
+  border-radius: 34px;
+}
+.slider.round.data-v-442d0846:before {
+  border-radius: 50%;
+}
+
+/* 调整视图的整体宽度 */
+.view.data-v-442d0846 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.logout-button.data-v-442d0846 {
+  background-color: #ccc;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 80px;
+  width:30%;
+  margin-top: 40px;
+}
+

@@ -1,0 +1,121 @@
+
+.register.data-v-4df0870e {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #FFBEBE;
+}
+.logo-wrapper.data-v-4df0870e {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.logo.data-v-4df0870e {
+  width: 120px;
+  height: 120px;
+}
+.form-wrapper.data-v-4df0870e {
+  width: 90%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-item.data-v-4df0870e {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.input-icon.data-v-4df0870e {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+input.data-v-4df0870e {
+  flex: 1;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+.button-wrapper.data-v-4df0870e {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.button-register.data-v-4df0870e {
+  width: 100%;
+  max-width: 300px;
+}
+button.data-v-4df0870e {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button.data-v-4df0870e:hover {
+  background-color: #45a049;
+}
+@media (max-width: 768px) {
+.register.data-v-4df0870e {
+    padding: 10px;
+}
+.logo.data-v-4df0870e {
+    width: 100px;
+    height: 100px;
+}
+.form-wrapper.data-v-4df0870e {
+    padding: 10px;
+    border-radius: 6px;
+}
+.form-item.data-v-4df0870e {
+    margin-bottom: 16px;
+}
+input.data-v-4df0870e {
+    padding: 8px;
+}
+button.data-v-4df0870e {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+}
+.slogan.data-v-4df0870e {
+        animation: sloganAnimation-4df0870e 20s infinite;
+        margin-bottom: 30px;
+}
+@keyframes sloganAnimation-4df0870e {
+0% {
+            color: #FF0000; /* 初始字体颜色 */
+            background-color: #FFFFFF; /* 初始背景颜色 */
+            font-family: Arial, sans-serif; /* 初始字体 */
+}
+25% {
+            color: #00FF00; /* 中间字体颜色 */
+            background-color: #FFFF00; /* 中间背景颜色 */
+            font-family: "Times New Roman", serif; /* 中间字体 */
+}
+50% {
+            color: #0000FF; /* 中间字体颜色 */
+            background-color: #00FFFF; /* 中间背景颜色 */
+            font-family: Courier, monospace; /* 中间字体 */
+}
+75% {
+            color: #FF00FF; /* 中间字体颜色 */
+            background-color: #FFA500; /* 中间背景颜色 */
+            font-family: "Lucida Sans Unicode", sans-serif; /* 中间字体 */
+}
+100% {
+            color: #FF0000; /* 初始字体颜色 */
+            background-color: #FFFFFF; /* 初始背景颜色 */
+            font-family: Arial, sans-serif; /* 初始字体 */
+}
+}
+
+

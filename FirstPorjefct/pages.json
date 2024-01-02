@@ -1,0 +1,169 @@
+{
+	"pages": [
+		{
+		 "path": "pages/userAction/Login",
+		 "style": {
+		    "navigationBarTitleText": "登录界面"
+		    }
+		},
+	    {
+	     "path": "pages/module/choose",
+	     "style": {
+	 	    "navigationBarTitleText": "中俄睦邻"
+	        }
+	    },
+		{
+		"path": "pages/module/culture/trade"
+		},
+		{
+		"path": "pages/module/culture/history"
+		},
+		{
+		"path": "pages/module/culture/humanity"
+		},
+		{
+		"path": "pages/module/culture/politics"
+		},
+		{
+		"path": "pages/module/humanity/classics"
+		},
+		{
+		"path": "pages/module/humanity/cultural-differences"
+		},
+		{
+		"path": "pages/module/humanity/culture"
+		},
+		{
+		"path": "pages/module/humanity/festivals"
+		},
+		{
+		"path": "pages/module/humanity/customs"
+		},
+		{
+		"path": "pages/module/humanity/geography"
+		},
+		{
+		"path": "pages/module/humanity/religion"
+		},
+		{
+		"path": "pages/module/humanity/traditional-food"
+		},
+		{
+		"path": "pages/module/culture/language",
+		"style": {
+		   "navigationBarTitleText": "文本翻译模块"
+		   }
+		},
+		{
+		 "path": "pages/userAction/Register",
+		 "style": {
+		    "navigationBarTitleText": "注册界面"
+		    }
+		},
+		{
+		 "path":"pages/userAction/Home/UserProfile",
+		 "style": {
+		    "navigationBarTitleText": "个人中心"
+		    }
+		},
+		{
+			"path":"pages/userAction/TranslateIndex",
+			"style": {
+			   "navigationBarTitleText": "翻译导航页"
+			   }
+		},
+		{
+			"path":"pages/userAction/Translation/PictureTranslation",
+			"style": {
+			   "navigationBarTitleText": "图片翻译"
+			   }
+		},
+		{
+			"path":"pages/userAction/Translation/FontTranslation",
+			"style": {
+			   "navigationBarTitleText": "文字翻译"
+			   }
+		},
+		{
+			"path":"pages/userAction/Translation/DocumentTranslation",
+			"style": {
+			   "navigationBarTitleText": "文档翻译"
+			   }
+		},
+		{
+			"path":"pages/userAction/LearnIndex",
+			"style": {
+			   "navigationBarTitleText": "学习导航"
+			   }
+		},
+		{
+			"path":"pages/userAction/Learn/Overview",
+			"style": {
+			   "navigationBarTitleText": "复习界面"
+			   }
+		},
+		{
+			"path":"pages/userAction/Learn/WordTest",
+			"style": {
+			   "navigationBarTitleText": "单词检测界面"
+			   }
+		},
+		{
+			"path":"pages/userAction/Learn/Vocabulary",
+			"style": {
+			   "navigationBarTitleText": "单词学习界面"
+			   }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "中俄睦邻",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar":{
+	 "color":"#AAAAAA",
+	 "selectedColor":"#007AFF",
+	 "backgroundColor":"#FFFFFF",
+	 "borderStyle":"black",
+	 "list":[
+		    {
+	         "pagePath":"pages/userAction/TranslateIndex",
+		     "text":"在线翻译",
+		     "iconPath":"static/icons/translation.png",
+		     "selectedIconPath":"static/icons/translation.png"
+		    },
+	        {
+			 "pagePath":"pages/userAction/LearnIndex",
+			 "text":"语言学习",
+			 "iconPath":"static/icons/language.png",
+			 "selectedIconPath":"static/icons/language.png"
+			},
+			{
+			 "pagePath":"pages/module/choose",
+			 "text":"文化交流",
+			 "iconPath":"static/icons/culture.png",
+			 "selectedIconPath":"static/icons/culture.png"
+			},
+			{
+			 "pagePath":"pages/userAction/Home/UserProfile",
+			 "text":"个人中心",
+			 "iconPath":"static/icons/personal.png",
+			 "selectedIconPath":"static/icons/personal.png"
+	        }
+	    ]
+	}
+}

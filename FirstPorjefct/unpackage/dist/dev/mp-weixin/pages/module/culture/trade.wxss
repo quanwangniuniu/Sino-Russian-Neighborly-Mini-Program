@@ -1,0 +1,40 @@
+
+.trade-page.data-v-b871bcfa {
+  position: relative;
+  height: 100vh;
+}
+.background-image.data-v-b871bcfa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.content.data-v-b871bcfa {
+  padding: 20px;
+  color: #000000;
+}
+.section.data-v-b871bcfa {
+  margin-bottom: 20px;
+}
+.section-container.data-v-b871bcfa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-image.data-v-b871bcfa {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.section-title.data-v-b871bcfa {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 2rem;
+}
+.section-description.data-v-b871bcfa {
+  font-size: 16px;
+  margin-bottom: 3rem;
+}

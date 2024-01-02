@@ -1,0 +1,36 @@
+
+.movie-story.data-v-d4147072 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.movie-plot.data-v-d4147072, .quotes.data-v-d4147072 {
+  margin: 10px 0;
+  width: 80%;
+  max-width: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.movie-name.data-v-d4147072 {
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+.quotes.data-v-d4147072 {
+  color: #999;
+  font-style: italic;
+}
+.quotes_hint.data-v-d4147072 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+.section-image.data-v-d4147072{
+	margin-top:3rem;
+	margin-bottom:3rem;
+}

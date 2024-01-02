@@ -1,0 +1,1 @@
+<view class="word-card"><text class="word">{{a}}</text><view wx:if="{{b}}" class="translation">{{c}}</view><view class="button-group"><button bindtap="{{d}}" class="btn-unknown">不认识</button><button bindtap="{{e}}" class="btn-known">认识</button><button wx:if="{{f}}" bindtap="{{g}}" class="btn-next">下一个</button></view></view>

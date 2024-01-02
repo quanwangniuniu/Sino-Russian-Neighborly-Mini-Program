@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "uni-title": "../../../uni_modules/uni-title/components/uni-title/uni-title",
+    "uni-collapse-item": "../../../uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+    "uni-collapse": "../../../uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-section": "../../../uni_modules/uni-section/components/uni-section/uni-section"
+  }
+}

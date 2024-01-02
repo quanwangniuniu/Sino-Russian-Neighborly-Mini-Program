@@ -1,0 +1,69 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 100vh; /* 设置容器高度占满屏幕 */
+}
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center; /* 文字居中 */
+  color: #333; /* 文字颜色 */
+}
+.title {
+  font-size: 28px; /* 标题字体大小 */
+}
+.content {
+  width: 90%; /* 内容部分宽度 */
+  padding: 20px; /* 内边距 */
+  background-color: #fff; /* 内容背景色 */
+  border-radius: 10px; /* 边框圆角 */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+.section {
+  margin-bottom: 20px;
+}
+.section-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+.info {
+  text-align: justify;
+  color: #333;
+}
+/* 提示组件样式 */
+.tip-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 9999;
+  transition: transform 0.3s ease-in-out; /* 添加过渡动画 */
+  transform: translateY(70%); /* 默认隐藏在底部 */
+}
+.tip-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.tip-text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* scroll-view 样式 */
+.scroll-view {
+  /* 添加 scroll-view 样式 */
+}

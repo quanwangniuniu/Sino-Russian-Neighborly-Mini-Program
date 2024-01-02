@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "复习界面",
+  "usingComponents": {
+    "uni-section": "../../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-pagination": "../../../uni_modules/uni-pagination/components/uni-pagination/uni-pagination"
+  }
+}
